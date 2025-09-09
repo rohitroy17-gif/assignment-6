@@ -116,7 +116,7 @@ const displayPlants = (plants) => {
     for (let plant of plants) {
         const plantDiv = document.createElement('div');
         plantDiv.innerHTML = `
-        <div class="lg:w-[300px] md:h-[381px] card bg-base-100 w-full max-w-sm shadow-sm p-2 gap-2">
+        <div class=" md:h-[381px] card bg-base-100 w-full max-w-sm shadow-sm p-2 gap-2">
             <figure>
                 <img class="w-full h-50" src="${plant.image}" alt="" />
             </figure>
